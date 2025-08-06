@@ -1,3 +1,4 @@
+--// Services
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
@@ -207,7 +208,7 @@ AutoAcceptButton.Parent = ButtonContainer
 -- Credit Label
 local CreditLabel = Instance.new("TextLabel")
 CreditLabel.Name = "CreditLabel"
-CreditLabel.Text = ""
+CreditLabel.Text = "."
 CreditLabel.Font = Enum.Font.GothamBold
 CreditLabel.TextSize = 16
 CreditLabel.TextColor3 = Color3.fromRGB(220, 220, 220)
@@ -267,7 +268,7 @@ UsernameBox.FocusLost:Connect(function(enterPressed)
                     Title = "Trade Assist",
                     Text = "Invalid username.",
                     Duration = 2,
-                }) Im
+                })
             end
         end
     end
