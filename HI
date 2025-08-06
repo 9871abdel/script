@@ -267,7 +267,7 @@ UsernameBox.FocusLost:Connect(function(enterPressed)
                     Title = "Trade Assist",
                     Text = "Invalid username.",
                     Duration = 2,
-                })
+                }) Im
             end
         end
     end
